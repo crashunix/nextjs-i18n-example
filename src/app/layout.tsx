@@ -5,6 +5,8 @@ import Header from "@/components/header";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import Providers from "@/providers";
+import FontSizeControl from "@/components/acessibility/font-size-control";
+import AcessibilityToolbar from "@/components/acessibility/acessibility-toolbar";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -36,6 +38,7 @@ export default async function RootLayout({
       >
         <Providers>
           <NextIntlClientProvider messages={messages}>
+            <AcessibilityToolbar />
             <Header />
             {children}
           </NextIntlClientProvider>

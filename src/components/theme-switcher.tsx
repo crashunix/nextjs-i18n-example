@@ -40,20 +40,6 @@ const ThemeSwitcher = () => {
         <DropdownMenuItem onClick={() => setTheme("system")}>
           System
         </DropdownMenuItem>
-
-        <DropdownMenuSeparator />
-
-        <DropdownMenuLabel>Dos top</DropdownMenuLabel>
-
-        <DropdownMenuSeparator />
-
-        <DropdownMenuItem onClick={() => setTheme("red")}>Red</DropdownMenuItem>
-        <DropdownMenuItem onClick={() => setTheme("blue")}>
-          Blue
-        </DropdownMenuItem>
-        <DropdownMenuItem onClick={() => setTheme("green")}>
-          Green
-        </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>
   );

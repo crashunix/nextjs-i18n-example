@@ -12,12 +12,12 @@ const Header = () => {
         <div className="flex justify-between items-center">
           <h1>Logo</h1>
           <div className="flex items-center space-x-4">
-            <nav className="space-x-2">
+            {/* <nav className="space-x-2">
               <Link href={"/"}>{t("home")}</Link>
               <Link href={"/"}>{t("about")}</Link>
               <Link href={"/"}>{t("services")}</Link>
               <Link href={"/"}>{t("contact")}</Link>
-            </nav>
+            </nav> */}
             <LanguageSwitcher />
             <ThemeSwitcher />
           </div>
