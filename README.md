@@ -1,37 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next.js Base Project
 
-## Getting Started
+Bem-vindo ao **Next.js Project Base**! Este projeto foi desenvolvido para ser uma base versátil para qualquer aplicação em Next.js, integrando uma série de ferramentas e funcionalidades para acelerar o desenvolvimento e promover boas práticas.
 
-First, run the development server:
+## Recursos Principais
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Next.js:** Framework para construção de aplicações React escaláveis.
+- **ShadCN:** Biblioteca de componentes para construção de interfaces consistentes.
+- **Tailwind CSS:** Framework CSS utilitário para estilização rápida e responsiva.
+- **Next-intl:** Integração com Next.js para internacionalização, permitindo a seleção de idiomas pela interface.
+- **Seletor de Tema:** Seletor de temas para alternar entre diversos temas, incluindo modos claro e escuro.
+- **Barra de Acessibilidade (Em Desenvolvimento):** Inclui a opção de selecionar o tamanho da fonte e ativar/desativar o alto contraste.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Funcionalidades de Acessibilidade
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Estou comprometido com a criação de interfaces acessíveis para todos os usuários. A barra de acessibilidade ainda está em desenvolvimento, mas já possui algumas funcionalidades:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Tamanho da Fonte:** Permite aos usuários aumentar ou diminuir o tamanho da fonte para melhor legibilidade.
+- **Alto Contraste:** Alterna o alto contraste, melhorando a experiência de usuários com deficiência visual.
 
-## Learn More
+## Como Começar
 
-To learn more about Next.js, take a look at the following resources:
+    git clone https://github.com/crashunix/nextjs-project-base.git
+    cd nextjs-project-base
+    npm install
+    npm run dev
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Após seguir os passos acima, seu projeto estará rodando em `http://localhost:3000`.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Customização
 
-## Deploy on Vercel
+Este projeto pode ser facilmente customizado para atender às necessidades do seu próximo projeto. Altere os componentes do ShadCN, ajuste os estilos com Tailwind e configure idiomas adicionais com o `next-intl`.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contribuição
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# nextjs-i18n-example
+Toda contribuição é bem-vinda! Se você encontrar problemas ou tiver melhorias para sugerir, sinta-se à vontade para abrir uma `issue` ou enviar um `pull request`.
+
+## Contato
+
+Para mais informações, você pode me encontrar nas redes sociais:
+
+- [GitHub](https://github.com/crashunix)
+- [Twitter](https://twitter.com/crashunix)
+
+## Licença
+
+Este projeto está licenciado sob a **MIT License**. Consulte o arquivo `LICENSE` para mais detalhes.
