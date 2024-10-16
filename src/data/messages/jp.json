@@ -18,5 +18,9 @@
   "AboutPage": {
     "title": "私たちについて",
     "text": "このプロジェクトは、ShadCN、Tailwind CSS、Next-intl などのツールを統合した Next.js アプリケーションの多用途ベースです。テーマ選択、多言語サポート、アクセシビリティオプションなどの機能を提供し、新しいウェブ開発プロジェクトの理想的な出発点です。"
+  },
+  "AcessibilityToolbar": {
+    "activateContrast": "ハイコントラストを有効にする",
+    "deactivateContrast": "ハイコントラストを無効にする"
   }
 }

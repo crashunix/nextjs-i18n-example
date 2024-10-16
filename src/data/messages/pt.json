@@ -18,5 +18,9 @@
   "AboutPage": {
     "title": "Sobre",
     "text": "Este projeto é uma base versátil para aplicações em Next.js, integrando ferramentas como ShadCN, Tailwind CSS, e Next-intl. Ele oferece funcionalidades como seleção de temas, suporte a múltiplos idiomas, e opções de acessibilidade, tornando-o um ponto de partida ideal para novos projetos de desenvolvimento web."
+  },
+  "AcessibilityToolbar": {
+    "activateContrast": "Ativar alto contraste",
+    "deactivateContrast": "Desativar alto contraste"
   }
 }

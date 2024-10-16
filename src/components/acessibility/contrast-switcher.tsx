@@ -1,9 +1,12 @@
 "use client";
 
+import { useTranslations } from "next-intl";
 import { useEffect, useState } from "react";
 
 const ContrastSwitcher = () => {
   const [isHighContrast, setIsHighContrast] = useState(false);
+
+  const t = useTranslations("AcessibilityToolbar");
 
   const checkSystemContrastPreference = () => {
     const contrastQuery = window.matchMedia("(prefers-contrast: more)");
@@ -40,7 +43,7 @@ const ContrastSwitcher = () => {
 
   return (
     <button onClick={toggleContrast}>
-      {isHighContrast ? "Desativar Alto Contraste" : "Ativar Alto Contraste"}
+      {isHighContrast ? t("activateContrast") : t("deactivateContrast")}
     </button>
   );
 };
