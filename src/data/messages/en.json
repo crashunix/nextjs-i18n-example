@@ -27,5 +27,37 @@
     "light": "Light",
     "dark": "Dark",
     "system": "System"
+  },
+  "ServicesPage": {
+    "title": "Our Software Services",
+    "description": "Empowering businesses with cutting-edge software solutions tailored to your needs.",
+    "customSoftwareDevelopment": {
+      "title": "Custom Software Development",
+      "description": "Tailored software solutions to meet your unique business needs."
+    },
+    "cloudSolutions": {
+      "title": "Cloud Solutions",
+      "description": "Scalable and secure cloud infrastructure and migration services."
+    },
+    "databaseManagement": {
+      "title": "Database Management",
+      "description": "Efficient database design, optimization, and maintenance."
+    },
+    "cybersecurity": {
+      "title": "Cybersecurity",
+      "description": "Comprehensive security solutions to protect your digital assets."
+    },
+    "mobileAppDevelopment": {
+      "title": "Mobile App Development",
+      "description": "Cross-platform mobile applications for iOS and Android."
+    },
+    "aiAndMachineLearning": {
+      "title": "AI & Machine Learning",
+      "description": "Intelligent solutions leveraging cutting-edge AI technologies."
+    },
+    "learnMore": "Learn More",
+    "ctaTitle": "Ready to Transform Your Business?",
+    "ctaDescription": "Let's discuss how our software services can drive your success.",
+    "contactUs": "Contact Us Today"
   }
 }

@@ -27,5 +27,37 @@
     "light": "ライト",
     "dark": "ダーク",
     "system": "システム"
+  },
+  "ServicesPage": {
+    "title": "ソフトウェアサービス",
+    "description": "お客様のニーズに合わせた最先端のソフトウェアソリューションでビジネスを強化します。",
+    "customSoftwareDevelopment": {
+      "title": "カスタムソフトウェア開発",
+      "description": "お客様のユニークなビジネスニーズに応じたカスタムソフトウェアソリューション。"
+    },
+    "cloudSolutions": {
+      "title": "クラウドソリューション",
+      "description": "スケーラブルで安全なクラウドインフラストラクチャと移行サービス。"
+    },
+    "databaseManagement": {
+      "title": "データベース管理",
+      "description": "効率的なデータベース設計、最適化、およびメンテナンス。"
+    },
+    "cybersecurity": {
+      "title": "サイバーセキュリティ",
+      "description": "デジタル資産を保護するための包括的なセキュリティソリューション。"
+    },
+    "mobileAppDevelopment": {
+      "title": "モバイルアプリ開発",
+      "description": "iOSとAndroid向けのクロスプラットフォームモバイルアプリケーション。"
+    },
+    "aiAndMachineLearning": {
+      "title": "AIと機械学習",
+      "description": "最先端のAI技術を活用したインテリジェントなソリューション。"
+    },
+    "learnMore": "詳細を見る",
+    "ctaTitle": "ビジネスを変革する準備はできましたか？",
+    "ctaDescription": "私たちのソフトウェアサービスがどのように成功を促進できるか話し合いましょう。",
+    "contactUs": "今すぐお問い合わせください"
   }
 }

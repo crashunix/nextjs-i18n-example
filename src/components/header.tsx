@@ -1,8 +1,8 @@
 import { useLocale, useTranslations } from "next-intl";
-import Link from "next/link";
 import ThemeSwitcher from "./theme-switcher";
 import LocaleSwitcherSelect from "./locale-switcher-select";
 import { routing } from "@/i18n/routing";
+import Link from "./link";
 
 const Header = () => {
   const t = useTranslations("Menu");
@@ -18,7 +18,7 @@ const Header = () => {
             <nav className="space-x-2">
               <Link href={"/"}>{t("home")}</Link>
               <Link href={"/about"}>{t("about")}</Link>
-              <Link href={"/"}>{t("services")}</Link>
+              <Link href={"/services"}>{t("services")}</Link>
               <Link href={"/"}>{t("contact")}</Link>
             </nav>
             {/* <LocaleSwitcher /> */}

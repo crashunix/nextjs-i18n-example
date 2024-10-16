@@ -11,6 +11,11 @@ export const routing = defineRouting({
       pt: "/sobre",
       jp: "/私たちについて",
     },
+    "/services": {
+      en: "/services",
+      pt: "/serviços",
+      jp: "/サービス",
+    },
   },
 });
 

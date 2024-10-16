@@ -27,5 +27,37 @@
     "light": "Claro",
     "dark": "Escuro",
     "system": "Sistema"
+  },
+  "ServicesPage": {
+    "title": "Nossos Serviços de Software",
+    "description": "Capacitando empresas com soluções de software de ponta adaptadas às suas necessidades.",
+    "customSoftwareDevelopment": {
+      "title": "Desenvolvimento de Software Personalizado",
+      "description": "Soluções de software personalizadas para atender às necessidades exclusivas do seu negócio."
+    },
+    "cloudSolutions": {
+      "title": "Soluções em Nuvem",
+      "description": "Infraestrutura em nuvem escalável e segura e serviços de migração."
+    },
+    "databaseManagement": {
+      "title": "Gerenciamento de Banco de Dados",
+      "description": "Design de banco de dados eficiente, otimização e manutenção."
+    },
+    "cybersecurity": {
+      "title": "Cibersegurança",
+      "description": "Soluções de segurança abrangentes para proteger seus ativos digitais."
+    },
+    "mobileAppDevelopment": {
+      "title": "Desenvolvimento de Aplicativos Móveis",
+      "description": "Aplicações móveis multiplataforma para iOS e Android."
+    },
+    "aiAndMachineLearning": {
+      "title": "IA e Aprendizado de Máquina",
+      "description": "Soluções inteligentes aproveitando tecnologias de IA de ponta."
+    },
+    "learnMore": "Saiba Mais",
+    "ctaTitle": "Pronto para Transformar Seu Negócio?",
+    "ctaDescription": "Vamos discutir como nossos serviços de software podem impulsionar seu sucesso.",
+    "contactUs": "Entre em Contato Hoje"
   }
 }
