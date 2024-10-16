@@ -10,7 +10,7 @@
   },
   "LocaleSwitcher": {
     "label": "言語を選択",
-    "locale": "{locale, select, pt {🇧🇷 ポルトガル語} en {🇺🇸 英語} jp {🇯🇵 日本語} other {不明}}"
+    "locale": "{locale, select, pt {🇧🇷 Português} en {🇺🇸 English} jp {🇯🇵 日本語} other {不明}}"
   },
   "Manifest": {
     "name": "next-intl 例"
