@@ -1,11 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import Header from "@/components/header";
-import { NextIntlClientProvider } from "next-intl";
-import { getMessages, unstable_setRequestLocale } from "next-intl/server";
 import Providers from "@/providers";
-import AcessibilityToolbar from "@/components/acessibility/acessibility-toolbar";
 import { ReactNode } from "react";
 
 const geistSans = localFont({

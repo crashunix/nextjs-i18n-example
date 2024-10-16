@@ -10,8 +10,11 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "./ui/dropdown-menu";
+import { useTranslations } from "next-intl";
 
 const ThemeSwitcher = () => {
+  const t = useTranslations("Themes");
+
   const [mounted, setMounted] = useState(false);
   const { theme, setTheme } = useTheme();
 
@@ -25,20 +28,22 @@ const ThemeSwitcher = () => {
 
   return (
     <DropdownMenu>
-      <DropdownMenuTrigger>Theme</DropdownMenuTrigger>
+      <DropdownMenuTrigger>
+        <span className="capitalize">{t(theme)}</span>
+      </DropdownMenuTrigger>
       <DropdownMenuContent>
-        <DropdownMenuLabel>Default</DropdownMenuLabel>
+        {/* <DropdownMenuLabel>Default</DropdownMenuLabel>
 
-        <DropdownMenuSeparator />
+        <DropdownMenuSeparator /> */}
 
         <DropdownMenuItem onClick={() => setTheme("light")}>
-          Light
+          {t("light")}
         </DropdownMenuItem>
         <DropdownMenuItem onClick={() => setTheme("dark")}>
-          Dark
+          {t("dark")}
         </DropdownMenuItem>
         <DropdownMenuItem onClick={() => setTheme("system")}>
-          System
+          {t("system")}
         </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>

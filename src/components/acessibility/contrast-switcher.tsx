@@ -43,7 +43,7 @@ const ContrastSwitcher = () => {
 
   return (
     <button onClick={toggleContrast}>
-      {isHighContrast ? t("activateContrast") : t("deactivateContrast")}
+      {isHighContrast ? t("deactivateContrast") : t("activateContrast")}
     </button>
   );
 };

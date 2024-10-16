@@ -22,5 +22,10 @@
   "AcessibilityToolbar": {
     "activateContrast": "Activate high contrast",
     "deactivateContrast": "Deactivate high contrast"
+  },
+  "Themes": {
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
   }
 }

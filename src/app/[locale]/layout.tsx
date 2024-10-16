@@ -21,7 +21,7 @@ export default async function RootLayout({
       <NextIntlClientProvider messages={messages}>
         <AcessibilityToolbar />
         <Header />
-        {children}
+        <div className="container mx-auto px-4 pt-16 pb-10">{children}</div>
       </NextIntlClientProvider>
     </>
   );

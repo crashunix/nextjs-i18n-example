@@ -22,5 +22,10 @@
   "AcessibilityToolbar": {
     "activateContrast": "ハイコントラストを有効にする",
     "deactivateContrast": "ハイコントラストを無効にする"
+  },
+  "Themes": {
+    "light": "ライト",
+    "dark": "ダーク",
+    "system": "システム"
   }
 }

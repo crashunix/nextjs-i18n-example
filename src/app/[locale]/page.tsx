@@ -9,12 +9,12 @@ export default function IndexPage({ params: { locale } }: Props) {
   // Enable static rendering
   unstable_setRequestLocale(locale);
 
-  const t = useTranslations("IndexPage");
+  const t = useTranslations("HomePage");
 
   return (
     <div>
       <p className="max-w-[590px]">
-        {t.rich("description", {
+        {t.rich("text", {
           code: (chunks) => (
             <code className="font-mono text-white">{chunks}</code>
           ),
