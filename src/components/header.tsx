@@ -1,10 +1,13 @@
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import Link from "next/link";
-import LanguageSwitcher from "./language-switcher";
 import ThemeSwitcher from "./theme-switcher";
+import LocaleSwitcherSelect from "./locale-switcher-select";
+import { routing } from "@/i18n/routing";
 
 const Header = () => {
-  const t = useTranslations("menu");
+  const t = useTranslations("Menu");
+  const tLocale = useTranslations("LocaleSwitcher");
+  const locale = useLocale();
 
   return (
     <header className="bg-primary text-primary-foreground py-8">
@@ -12,13 +15,23 @@ const Header = () => {
         <div className="flex justify-between items-center">
           <h1>Logo</h1>
           <div className="flex items-center space-x-4">
-            {/* <nav className="space-x-2">
+            <nav className="space-x-2">
               <Link href={"/"}>{t("home")}</Link>
-              <Link href={"/"}>{t("about")}</Link>
+              <Link href={"/about"}>{t("about")}</Link>
               <Link href={"/"}>{t("services")}</Link>
               <Link href={"/"}>{t("contact")}</Link>
-            </nav> */}
-            <LanguageSwitcher />
+            </nav>
+            {/* <LocaleSwitcher /> */}
+            <LocaleSwitcherSelect
+              defaultValue={locale}
+              label={tLocale("label")}
+            >
+              {routing.locales.map((cur) => (
+                <option key={cur} value={cur}>
+                  {tLocale("locale", { locale: cur })}
+                </option>
+              ))}
+            </LocaleSwitcherSelect>
             <ThemeSwitcher />
           </div>
         </div>

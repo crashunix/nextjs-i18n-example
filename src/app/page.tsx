@@ -1,10 +1,6 @@
-import { useTranslations } from "next-intl";
+import { redirect } from "next/navigation";
 
-export default function Home() {
-  const t = useTranslations("home");
-  return (
-    <div className="container mx-auto px-4 py-10 flex justify-center">
-      {t("text")}
-    </div>
-  );
+// This page only renders when the app is built statically (output: 'export')
+export default function RootPage() {
+  redirect("/pt");
 }

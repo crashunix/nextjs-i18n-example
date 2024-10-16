@@ -1,11 +1,22 @@
 {
-  "menu": {
+  "Menu": {
     "home": "Início",
     "about": "Sobre nós",
     "services": "Serviços",
     "contact": "Contato"
   },
-  "home": {
+  "HomePage": {
     "text": "Em terras distantes, vozes nascem sós,\nCada uma com seu ritmo, um distinto tom,\nPalavras se moldam, como grãos de areia,\nNo deserto vasto de uma alma cheia.\nDas montanhas frias aos trópicos quentes,\nLínguas surgem como rios fluentes,\nTão diversas em suas melodias,\nMas no fundo, carregam as mesmas poesias.\nUm suspiro de amor, um grito de dor,\nRessoam idênticos, seja onde for,\nPois o que falamos, por mais singular,\nÉ um eco do que é humano, universal.\nSons de bocas que nunca se cruzaram,\nIdeias e sonhos que em palavras dançaram,\nEvoluímos separados, é o que parece,\nMas criamos as mesmas pontes, sem que ninguém soubesse.\nOs idiomas são diferentes, sim, é verdade,\nMas no coração deles há fraternidade,\nPois em cada verbo, em cada expressão,\nPulsa a mesma essência: comunicação.\nPor isso, embora em vozes diversas,\nHá algo que nos une, algo que versa:\nQue os idiomas, mesmo distantes,\nSão reflexos de almas vibrantes.\nAssim seguimos, em vozes plurais,\nMas unidos por gestos, sons e sinais,\nPois o que dizemos, em qualquer lugar,\nNo fundo, é o desejo de se conectar."
+  },
+  "LocaleSwitcher": {
+    "label": "Selecione o idioma",
+    "locale": "{locale, select, pt {🇧🇷 Português} en {🇺🇸 Inglês} jp {🇯🇵 Japonês} other {Unknown}}"
+  },
+  "Manifest": {
+    "name": "next-intl example"
+  },
+  "AboutPage": {
+    "title": "Sobre",
+    "text": "Este projeto é uma base versátil para aplicações em Next.js, integrando ferramentas como ShadCN, Tailwind CSS, e Next-intl. Ele oferece funcionalidades como seleção de temas, suporte a múltiplos idiomas, e opções de acessibilidade, tornando-o um ponto de partida ideal para novos projetos de desenvolvimento web."
   }
 }
